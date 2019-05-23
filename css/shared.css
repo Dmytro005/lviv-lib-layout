@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&subset=cyrillic");
+
+:root {
+  --brand-grey: rgb(148, 159, 171);
+  --dark-grey: #8080807e;
+  --main-font: "Rubik", sans-serif;
+  --second-font: "Old Standard TT", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+button {
+  font-family: var(--main-font);
+  padding: 10px 15px;
+  background-color: transparent;
+  color: var(--brand-grey);
+  border: 3px solid var(--brand-grey);
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.inversed {
+  color: white;
+  border: 3px solid var(--brand-grey);
+  background-color: var(--brand-grey) !important;
+}
+
+h1 h2 h3 h4 h5 {
+  font-family: "Old Standard TT", serif;
+}
+
+h1 {
+  font-family: "Old Standard TT", serif;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+nav .wr {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: grey;
+}
+
+.menu-link {
+  font-size: 15px;
+  margin: 10px;
+  display: flex;
+  color: grey;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: black;
+}
+
+section {
+  margin: 50px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wr {
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+}
+
+#main .wr {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  padding: 10px;
+  background-color: #8080807e;
+}
+
+footer .wr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li a {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.copyright-text {
+  color: white;
+}

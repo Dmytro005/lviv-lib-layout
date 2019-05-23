@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700&subset=cyrillic");
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 35px;
+  grid-row-gap: 35px;
+}
+
+.book-card {
+  transition: 100ms all ease-in-out;
+  height: 400px;
+  box-shadow: 1px 1px 5px 0px #8080803d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.book-card:hover {
+  box-shadow: 1px 1px 12px 5px #8080803d;
+  transform: scale(1.03);
+}
+.book-img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  object-fit: cover;
+  height: 70%;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  height: 30%;
+}
+
+.book-card-bookname {
+  margin: 10px 0;
+  font-size: 17px;
+}
+.book-card-author {
+  margin-bottom: 10px;
+  font-family: "Old Standard TT", serif;
+  font-size: 17px;
+}
+.book-card-year {
+  text-align: center;
+  font-size: 17px;
+}
+
+.load-more-container {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  margin-top: 0;
+  background: url("../img/bg/patrick-tomasso-71909-unsplash.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-cover {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000006b;
+}
+
+#hero h1 {
+  margin: auto;
+  color: white;
+}
