@@ -10,6 +10,11 @@
 
 body {
   font-family: var(--main-font);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
 }
 
 /* ------------Basic template-------- */
@@ -110,7 +115,7 @@ input[type="submit"]:active {
 .input-group input:valid + .border + label {
   top: -6px;
   font-size: 12px;
-  color: #aaa;
+  color: black;
 }
 .input-group label {
   position: absolute;
@@ -142,17 +147,15 @@ input[type="submit"]:active {
 }
 
 .input-group .border {
-  content: "";
-  display: block;
   position: absolute;
   bottom: 5px;
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--dark-grey);
-  -webkit-transition: 200ms ease;
-  -moz-transition: 200ms ease;
-  transition: 200ms ease;
+  background: black;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  transition: 300ms ease;
 }
 
 .input-group .error {
@@ -201,8 +204,6 @@ input[type="submit"]:active {
   }
 }
 /*----------- Form elements-------------*/
-
-
 
 /* ------------Layout system---------- */
 
@@ -271,7 +272,6 @@ footer .wr {
 }
 /* ------------Layout system---------- */
 
-
 /*-------------Decorations-------------*/
 .social-icons {
   display: flex;
@@ -288,9 +288,28 @@ footer .wr {
   justify-content: center;
   align-items: center;
   color: white;
+  text-decoration: none;
 }
 
 .copyright-text {
   color: white;
 }
+
+.form-container {
+  max-width: 300px;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 5px 11px 0px #80808069;
+  padding: 20px;
+}
 /*-------------Decorations-------------*/
+
+/* -------------Atomics--------------- */
+.w-100 {
+  width: 100%;
+}
+
+.m-1 {
+  margin: 1rem;
+}

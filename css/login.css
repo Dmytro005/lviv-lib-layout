@@ -1,0 +1,26 @@
+#login {
+  margin: auto;
+}
+
+body {
+  background-image: url("../img/bg/freddie-marriage-92621-unsplash.jpg");
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form button {
+  margin-top: 10px;
+}
+
+form h1 {
+  margin: 20px;
+  text-align: center;
+}

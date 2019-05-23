@@ -11,15 +11,6 @@ body {
   margin: auto;
 }
 
-.register-form-container {
-  max-width: 400px;
-  width: 100%;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 4px 5px 11px 0px #80808069;
-  padding: 20px;
-}
-
 .awesome-form .form-title {
   color: #666;
   padding: 0;
@@ -31,3 +22,8 @@ body {
   text-align: center;
 }
 
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

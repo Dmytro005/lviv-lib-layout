@@ -9,7 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.css"
     />
     <link rel="stylesheet" href="./css/shared.css" />
-    <link rel="stylesheet" href="./css/register.css" />
+    <link rel="stylesheet" href="./css/login.css" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
     <link
       rel="stylesheet"
@@ -27,12 +27,12 @@
             </a>
           </li>
           <li>
-            <a class="menu-link" href="">
+            <a class="menu-link" href="./register.html">
               Sign up
             </a>
           </li>
           <li>
-            <a class="menu-link" href="./login.html">
+            <a class="menu-link" href="#about">
               Log in
             </a>
           </li>
@@ -40,68 +40,24 @@
       </div>
     </nav>
 
-    <section id="register">
+    <section id="login">
       <div class="form-container">
         <!--  -->
         <form class="form">
-          <h1 class="form-title">Sign up</h1>
+          <h1 class="form-title">Login</h1>
           <div class="input-group">
-            <input type="text" name="U_name" required="required" />
-            <div class="border"></div>
-            <label>First name</label>
-          </div>
-          <div class="input-group">
-            <input type="text" name="U_surname" required="required" />
-            <div class="border"></div>
-            <label>Last name</label>
-          </div>
-          <div class="input-group">
-            <input type="text" name="U_username" required="required" />
+            <input type="text" name="U_usename" required="required" />
             <div class="border"></div>
             <label>Username</label>
-          </div>
-          <div class="input-group">
-            <input type="email" name="U_email" required="required" />
-            <div class="border"></div>
-            <label>Email</label>
-          </div>
-          <div class="input-group">
-            <span>Birthday</span>
-            <input type="date" name="U_birthday" required="required" />
-            <div class="border"></div>
-          </div>
-          <div class="input-group">
-            <input type="tel" name="U_birthday" required="required" />
-            <div class="border"></div>
-            <label>Phone</label>
-          </div>
-          <div class="location-data">
-            <div class="input-group">
-              <input type="text" name="U_street" required="required" />
-              <div class="border"></div>
-              <label>Street</label>
-            </div>
-            <div class="input-group">
-              <input type="tel" name="U_house" required="required" />
-              <div class="border"></div>
-              <label>House</label>
-            </div>
-            <div class="input-group">
-              <input type="tel" name="U_flat" required="required" />
-              <div class="border"></div>
-              <label>Flat</label>
-            </div>
           </div>
           <div class="input-group">
             <input type="password" name="U_password" required="required" />
             <div class="border"></div>
             <label>Password</label>
           </div>
-          <div class="button-group">
-            <button class="inversed" type="button">Log in</button>
-            <button type="submit">Sign up</button>
-          </div>
+          <button class="inversed w-100" type="submit">Log in</button>
         </form>
+        <button type="button" class="w-100">Sign up</button>
         <!--  -->
       </div>
     </section>
