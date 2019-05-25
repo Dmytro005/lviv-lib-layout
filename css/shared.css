@@ -6,6 +6,7 @@
   --dark-grey: #8080807e;
   --main-font: "Rubik", sans-serif;
   --second-font: "Old Standard TT", sans-serif;
+  --shadow: 4px 5px 11px 0px #80808069;
 }
 
 body {
@@ -47,6 +48,14 @@ h1 {
   font-family: "Old Standard TT", serif;
   margin-bottom: 40px;
   font-size: 2rem;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.book-name {
+  font-family: var(--main-font);
 }
 
 /* ------------Basic template-------- */
@@ -227,8 +236,11 @@ nav .wr {
 .logo {
   width: 50px;
   height: 50px;
+  background: url("../img/Logo.png") no-repeat top left;
+  background-size: cover;
+  clear: both;
   border-radius: 100%;
-  background-color: grey;
+  filter: grayscale(1);
 }
 
 .menu-link {
