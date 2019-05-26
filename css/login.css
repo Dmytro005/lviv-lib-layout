@@ -2,18 +2,11 @@
   margin: auto;
 }
 
-nav {
-  position: absolute;
-  width: 100%;
-}
-
 body {
   background-image: url("../img/bg/freddie-marriage-92621-unsplash.jpg");
 }
 
 footer {
-  width: 100%;
-  position: fixed;
   bottom: 0;
 }
 

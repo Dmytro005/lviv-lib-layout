@@ -7,11 +7,6 @@ body {
   background-size: cover;
 }
 
-nav {
-  position: absolute;
-  width: 100%;
-}
-
 #register {
   margin: auto;
 }
@@ -22,13 +17,15 @@ nav {
   margin: 5px;
 }
 
+.form-container {
+  margin: 20px 0;
+}
+
 .form-title {
   margin-top: 20px;
   text-align: center;
 }
 
 footer {
-  width: 100%;
-  position: fixed;
   bottom: 0;
 }
